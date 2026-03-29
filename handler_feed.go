@@ -40,3 +40,12 @@ func (cfg *apiConfig) handlerCreateFeed(w http.ResponseWriter, r *http.Request, 
 
 	respondWithJSON(w, 201, databaseFeedToFeed(feed))
 }
+
+func (cfg *apiConfig) handlerGetFeeds(w http.ResponseWriter, r *http.Request, user database.User) {
+	feeds, err := cfg.DB.GetFeeds(r.Context())
+	if err != nil {
+		respondWithError(w, 500, "Failed to retrieve feeds")
+		return
+	}
+	respondWithJSON(w, 200, databaseFeedsToFeeds(feeds))
+}
