@@ -1,9 +1,9 @@
 package main
 
 import (
+	"feedme-backend/internal/auth"
+	"feedme-backend/internal/database"
 	"fmt"
-	"go_freecodecamp/internal/auth"
-	"go_freecodecamp/internal/database"
 	"net/http"
 )
 

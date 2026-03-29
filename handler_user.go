@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"go_freecodecamp/internal/database"
+	"feedme-backend/internal/database"
 	"net/http"
 	"time"
 

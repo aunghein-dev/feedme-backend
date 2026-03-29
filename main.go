@@ -2,7 +2,7 @@ package main
 
 import (
 	"database/sql"
-	"go_freecodecamp/internal/database"
+	"feedme-backend/internal/database"
 	"log"
 	"net/http"
 	"os"

@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"database/sql"
+	"feedme-backend/internal/database"
 	"fmt"
-	"go_freecodecamp/internal/database"
 	"log"
 	"strings"
 	"sync"

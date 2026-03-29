@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go_freecodecamp/internal/database"
+	"feedme-backend/internal/database"
 	"time"
 
 	"github.com/google/uuid"

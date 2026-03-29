@@ -1,4 +1,4 @@
-module go_freecodecamp
+module feedme-backend
 
 go 1.26.1
 
